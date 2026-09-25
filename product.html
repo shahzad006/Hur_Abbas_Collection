@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0">
+
+  <title>Product Details - HurAbbasCollection</title>
+  <link rel="icon" type="image/png" href="images/logo.png">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <link
+    rel="stylesheet"
+    href="css/style.css">
+
+
+  <style>
+    .product-thumbnail {
+      width: 78px;
+      height: 78px;
+      flex: 0 0 auto;
+      padding: 4px;
+      border: 2px solid #e2e8f0;
+      border-radius: 12px;
+      background: #fff;
+      cursor: pointer;
+      overflow: hidden;
+      transition: .25s ease;
+    }
+
+    .product-thumbnail img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    .product-thumbnail:hover {
+      border-color: #d4af37;
+      transform: translateY(-2px);
+    }
+
+    .product-thumbnail.active-thumbnail {
+      border-color: #d4af37;
+      box-shadow: 0 0 0 2px rgba(212,175,55,.15);
+    }
+ 
+    html,
+    body {
+      width: 100%;
+      max-width: 100%;
+      overflow-x: hidden;
+    }
+
+    #productDetails,
+    #productDetails > div {
+      min-width: 0;
+      max-width: 100%;
+    }
+
+    #productDetails img {
+      max-width: 100%;
+    }
+
+    #mainProductImage {
+      display: block;
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+      max-height: 500px;
+      object-fit: contain;
+    }
+
+    .product-gallery-thumbnails {
+      width: 100%;
+      max-width: 100%;
+      overflow-x: auto;
+      overflow-y: hidden;
+      scrollbar-width: thin;
+    }
+
+    @media (max-width: 767px) {
+      main {
+        width: 100%;
+        max-width: 100%;
+        padding-left: 12px !important;
+        padding-right: 12px !important;
+        padding-top: 20px !important;
+        padding-bottom: 24px !important;
+        box-sizing: border-box;
+      }
+
+      #productDetails {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+        padding: 14px !important;
+        gap: 24px !important;
+        overflow: hidden;
+      }
+
+      #productDetails > div {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+      }
+
+      #productDetails > div:first-child {
+        overflow: hidden;
+      }
+
+      #productDetails > div:first-child > div:first-child {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+        padding: 8px !important;
+      }
+
+      #mainProductImage {
+        width: 100%;
+        height: auto;
+        max-height: 420px;
+        object-fit: contain;
+      }
+
+      .product-gallery-thumbnails {
+        display: flex;
+        gap: 8px;
+        margin-top: 10px;
+        padding-bottom: 4px;
+      }
+
+      .product-thumbnail {
+        width: 64px;
+        height: 64px;
+        flex: 0 0 64px;
+      }
+
+      #productDetails h1 {
+        font-size: 28px !important;
+        line-height: 1.15;
+        overflow-wrap: anywhere;
+        word-break: break-word;
+      }
+
+      #productDetails p {
+        overflow-wrap: anywhere;
+      }
+
+      #productDetails button:not(.product-thumbnail) {
+        max-width: 100%;
+        box-sizing: border-box;
+      }
+
+      header nav {
+        width: 100%;
+        box-sizing: border-box;
+      }
+
+      header nav > div {
+        min-width: 0;
+        gap: 8px;
+      }
+
+      header nav > div > a:first-child {
+        font-size: 20px !important;
+        white-space: nowrap;
+      }
+
+      header nav > div > a:last-child {
+        font-size: 12px !important;
+        white-space: nowrap;
+      }
+    }
+
+     </style>
+
+
+</head>
+
+
+<body class="bg-slate-50">
+
+
+  <!-- NAVBAR -->
+
+  <header class="bg-white border-b">
+
+    <nav
+      class="max-w-7xl mx-auto px-4">
+
+      <div
+        class="h-16 flex items-center justify-between">
+
+        <a
+          href="index.html"
+          class="text-2xl font-bold text-[#d4af37] ">
+
+          Hur Abbas<span class="text-slate-900">
+            Collection
+          </span>
+
+        </a>
+
+
+        <a
+          href="index.html"
+          class="text-sm font-semibold text-[#d4af37]">
+
+          ← Back to Store
+
+        </a>
+
+      </div>
+
+    </nav>
+
+  </header>
+
+
+  <!-- PRODUCT DETAIL -->
+
+  <main class="max-w-7xl mx-auto px-4 py-12">
+
+
+    <div
+      id="productDetails"
+      class="bg-white rounded-2xl p-6 md:p-10 grid md:grid-cols-2 gap-10">
+
+    </div>
+
+
+  </main>
+
+
+  <!-- ----------------------------------------------------------------------- -->
+
+  <script>
+  const whatsappNumber = "923703149369";
+
+  const product = JSON.parse(
+    localStorage.getItem("selectedProduct")
+  );
+
+  const container = document.getElementById("productDetails");
+
+  // Format Price
+  function formatPrice(price) {
+    return new Intl.NumberFormat("en-PK").format(price);
+  }
+
+  if (!product) {
+    container.innerHTML = `
+      <div class="col-span-full text-center py-20">
+        <h2 class="text-2xl font-bold">
+          Product Not Found
+        </h2>
+
+        <a
+          href="index.html"
+          class="inline-block mt-5 bg-blue-600 text-white px-6 py-3 rounded-lg">
+          Back to Store
+        </a>
+      </div>
+    `;
+  } else {
+
+    container.innerHTML = `
+      <!-- IMAGE GALLERY -->
+      <div>
+
+        <!-- MAIN IMAGE -->
+        <div
+          class="bg-slate-100 rounded-2xl p-6 flex items-center justify-center">
+
+          <img
+            id="mainProductImage"
+            src="${product.images && product.images.length ? product.images[0] : product.image}"
+            alt="${product.title}"
+            class="max-h-[500px] w-full object-contain">
+
+        </div>
+
+        <!-- THUMBNAILS -->
+        ${
+          product.images && product.images.length > 1
+            ? `
+              <div class="product-gallery-thumbnails flex gap-3 mt-4 overflow-x-auto pb-2">
+                ${product.images.map((img, index) => `
+                  <button
+                    type="button"
+                    onclick="changeProductImage('${img.replace(/'/g, "\\'")}', this)"
+                    class="product-thumbnail ${index === 0 ? "active-thumbnail" : ""}">
+                    <img
+                      src="${img}"
+                      alt="${product.title} ${index + 1}">
+                  </button>
+                `).join("")}
+              </div>
+            `
+            : ""
+        }
+
+      </div>
+
+
+      <!-- INFO -->
+      <div class="flex flex-col justify-center">
+
+        <span
+          class="text-[#d4af37] font-medium uppercase text-sm">
+          ${product.category}
+        </span>
+
+        <h1
+          class="text-3xl md:text-5xl font-bold mt-3">
+          ${product.title}
+        </h1>
+
+        <p
+          class="text-3xl font-medium text-[#d4af37] mt-6">
+          Rs. ${formatPrice(product.price)}
+        </p>
+
+        <p
+          class="text-slate-600 leading-relaxed mt-6">
+          ${product.description}
+        </p>
+
+        <button
+          onclick="buyProduct()"
+          class="mt-8 bg-[#d4af37] hover:bg-[#b8941f] hover:text-white text-dark py-4 rounded-xl font-bold text-lg">
+
+          💬 Buy Now on WhatsApp
+
+        </button>
+
+      </div>
+    `;
+  }
+
+
+  // Change main product image
+  function changeProductImage(imageSrc, thumbnail) {
+    const mainImage = document.getElementById("mainProductImage");
+
+    if (!mainImage) return;
+
+    mainImage.src = imageSrc;
+
+    document.querySelectorAll(".product-thumbnail").forEach(item => {
+      item.classList.remove("active-thumbnail");
+    });
+
+    thumbnail.classList.add("active-thumbnail");
+  }
+
+
+  // WhatsApp Order
+  function buyProduct() {
+
+    if (!product) return;
+
+    const message =
+      `✨ *HUR ABBAS COLLECTION* ✨\n` +
+      `━━━━━━━━━━━━━━━━━━\n\n` +
+      `🛍️ *Order Inquiry*\n\n` +
+      `📦 *Product:* ${product.title}\n` +
+      `💰 *Price:* Rs. ${formatPrice(product.price)}\n` +
+      `🏷️ *Category:* ${product.category}\n\n` +
+      `━━━━━━━━━━━━━━━━━━\n` +
+      `👑 *Premium Shopping Experience*\n\n` +
+      `Hello! I’m interested in purchasing this product.\n` +
+      `Kindly share the available *payment methods* and *delivery details* to proceed with my order.\n\n` +
+      `Thank you! ✨\n` +
+      `*HUR ABBAS COLLECTION — Online Shopping*`;
+
+
+    const url =
+      `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
+
+
+    // Open WhatsApp
+    window.open(url, "_blank");
+  }
+</script>
+  
+
+
+</body>
+
+</html>
