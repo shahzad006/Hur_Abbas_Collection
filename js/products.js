@@ -275,7 +275,1016 @@ const products = [
     description:
       "<b>BLUKS BX-608 VORTEX EARBUDS 🎧</b> <br>* 🎧 ENC Noise Cancellation<br>* 🎮 Low Latency (~50ms) – Perfect for gaming & streaming<br>* 🔊 Powerful Bass<br>* 🔋 Long Battery Life<br> * 💧 IPX4 Waterproof <br>* 🎶 Advanced Sound Modes <br>* Bass Mode – Extra punchy bass <br>* Theater Mode – Surround-like experience <br>* Music Mode – Balanced audio for daily use With (ONE YEAR WARRANTY)"
   }
+  ,
+
+  {
+    id: 16,
+
+    title: "NEW MODEL ARRIVED",
+
+    price: 1700,
+
+    category: "Watches",
+
+    image: "images/smart-devices/NEW MODEL ARRIVED.jpeg",
+
+    description:
+      "<b>NEW MODEL ARRIVED</b> <br>* CARTIER LADIES<br>* ⁠BRACELET WATCH <br>* PREMIUM QUALITY<br>* GOLD FINISH⁠ <br>* STONE BEZEL DESIGN <br>* ELEGANT BRACELET STYLE <br>* * QUARTZ MOVEMENT <br>* ATTRACTIVE DIAL & COLOURS <br>* BEST QUALITY & FINISHING"
+  }
+  ,
+
+  {
+    id: 17,
+
+    title: "NEW MODEL ARRIVED",
+
+    price: 1500,
+
+    category: "Watches",
+
+    image: "images/smart-devices/Ladies Fancy.jpeg",
+
+    description:
+      "<b>Ladies Fancy Chain Watch</b> <br>* Beautiful Stone Studded Dial <br>* Premium Stainless Steel Chain<br>* PREMIUM QUALITY<br>* GOLD FINISH⁠ <br>* Multiple Colours & Elegant Finishing"
+  }
+  ,
+
+  {
+    id: 18,
+
+    title: "ROLEX",
+
+    price: 2150,
+
+    category: "Watches",
+
+    image: "images/smart-devices/ROLEX.jpeg",
+
+    description:
+      "<b>NEW ARRIVAL</b>NEW ARRIVAL <br>* ROLEX DATE JUST PLAIN BEZEL <br>* GENT'S COLLECTION <br>* QUARTZ MOMENT <br>* AAA GRADE QUALITY <br>* STAINLESS STEEL CHAIN BRASS CASE WITH DATE <br>* WITH POWER LOCK"
+  }
+  ,
+
+  {
+    id: 19,
+
+    title: "R•W•D Ladies & Gents Couple Watch",
+
+    price: 1500,
+
+    category: "Watches",
+
+    image: "images/smart-devices/R•W•D Ladies & Gents Couple Watch.jpeg",
+
+    description:
+      "<b>R•W•D Ladies & Gents Couple Watch<br>* Elegant Look With Push Lock Beautiful Dials Colours <br>* Premium Finishing & Quartz Movement"
+  }
+  ,
+
+
+   {
+    id: 20,
+
+    title: "Light Speaker",
+
+    price: 2500,
+
+    category: "Accessories",
+
+    image: "images/accessories/Light Speaker.jpeg",
+
+    description:
+      "<b>ROMOSS Powerbank</b> <br>* HD100 RGB Light Speaker with Powerful Sound <br>*Long Battery Life <br>* Wireless Connectivity <br>* RGB Lights <br>* Splash Proof & HD Stereo Sound (Box Pack) <br>* POWERFULL SOUND <br><b>WITH 3 DAYS CHECKING WARRANTY</b>"
+  }
+  ,
+
+
+   {
+    id: 21,
+
+    title: "WAVEONIC HEADPHONES",
+
+    price: 4500,
+
+    category: "Accessories",
+
+    image: "images/accessories/WAVEONIC HEADPHONES.jpeg",
+
+    description:
+      "<b>WAVEONIC HEADPHONES</b> <br>* BLUK’s BX-84 <br>* 🎧 Active Noise Cancellation (ANC)<br>* 🔋 Up to 30 Hours Playtime<br>* 🎵 HD Sound with Deep Bass <br>* 🎤 Built-in HD Microphone<br>* 🔌 Wireless + AUX Support<br>* 💙 Lightweight & Comfortable Design <br> <b>VVIP QUALITY (WITH ONE YEAR WARRANTY)</b> "
+  }
+  ,
+
+  {
+    id: 22,
+
+    title: "Ladies Watch",
+
+    price: 1750,
+
+    category: "Watches",
+
+    image: "images/smart-devices/Ladies 6.jpeg",
+
+    description:
+      "THE MOST VIRAL PRODUCT <br>* THE NEW SNAKE BRACELET <br>* WOMEN WATCH <br>* STONES CASE <br>* FINEST QUALITY <br>* WITH DIFFERENT COLOURS"
+  }
+
+  ,
+
+
+   {
+    id: 23,
+
+    title: "WIRELESS EARBUDS",
+
+    price: 3100,
+
+    category: "Accessories",
+
+    image: "images/accessories/WIRELESS EARBUDS.jpeg",
+
+    description:
+      "<b>CUSTOMERS MOST DEMANDING MODEL</b> <br>* BLUKS BX-AIRPRO 3 WIRELESS EARBUDS (ANC + ENC)<br>* BUZZER/LANYARD  <br>* 🎧 ANC + ENC Technology <br>* Fast & Stable Connectivity <br>* Long Battery Life <br>* Smart Touch / Button Controls <br>* (BLACK EDITION) <br>* VVIP QUALITY <br>* (ONE YEAR WARRANTY) "
+  }
+  ,
+
+
+   {
+    id: 24,
+
+    title: "WIRELESS EARBUDS",
+
+    price: 3000,
+
+    category: "Accessories",
+
+    image: "images/accessories/WIRELESS EARBUDS white.jpeg",
+
+    description:
+      "<b>CUSTOMERS MOST DEMANDING MODEL</b> <br>* BLUKS BX-AIRPRO 3 WIRELESS EARBUDS (ANC + ENC)<br>* BUZZER/LANYARD  <br>* 🎧 ANC + ENC Technology <br>* Fast & Stable Connectivity <br>* Long Battery Life <br>* Smart Touch / Button Controls <br>* (BLACK EDITION) <br>* VVIP QUALITY <br>* (ONE YEAR WARRANTY) "
+  }
+  ,
+
+
+   {
+    id: 25,
+
+    title: "Prismo swiss",
+
+    price: 950,
+
+    category: "Perfumes",
+
+    image: "images/Perfumes/Perfumes.jpeg",
+
+    description:
+      "<b>Prismo swiss made in Uae Dubai 25ml Lady million fragrances</b>"
+  }
+  ,
+
+
+   {
+    id: 26,
+
+    title: "Pen Perfume",
+
+    price: 1000,
+
+    category: "Perfumes",
+
+    image: "images/Perfumes/pen perfume.jpeg",
+
+    description:
+      "<b>Pack of 5pcs 35ml pen perfume each set</b>"
+  }
+  ,
+
+
+   {
+    id: 27,
+
+    title: "Heart Perfume Gift set pack",
+
+    price: 1000,
+
+    category: "Perfumes",
+
+    image: "images/Perfumes/Heart Perfume Gift.jpeg",
+
+    description:
+      "<b>Heart ❤️ Perfume Gift 🎁 set pack of 2pcs</b><br>* 35ml perfume <br>* 200mp body spray <br>* Lasting no idea <br>* Box color different honge"
+  }
+  ,
+
+  {
+    id: 28,
+
+    title: "Abaya",
+
+    price: 3500,
+
+    category: "Clothings",
+
+    images: [
+    "images/Clothing/ABAYA item 1.jpeg",
+    "images/Clothing/ABAYA item 2.jpeg",
+    "images/Clothing/ABAYA item 3.jpeg",
+
+],
   
+    description:
+      "<b>Premium Imported Nida Abaya</b><br><br><b>Fabric:</b> Imported Nida<br><b>Work:</b> Embroidery & Stone Work on Front and Sleeves<br><b>Style:</b> Front Open<br><b>Length:</b> 54 / 55 / 56<br><b>Chest:</b> 25<br><b>Note:</b> Staller Not Included"
+  }
+  
+
+  
+  ,
+
+
+   {
+    id: 29,
+
+    title: "long lasting perfume ",
+
+    price: 1200,
+
+    category: "Perfumes",
+
+    image: "images/Perfumes/long lasting perfume.jpeg",
+
+    description:
+      "<b>Best long lasting perfume Amazing fragrances 25k up price perfume brand similar fragrances avble in 25ml very Unbelievable </b>"
+  }
+  ,
+
+
+   {
+    id: 30,
+
+    title: "WIRELESS EARBUDS",
+
+    price: 4500,
+
+    category: "Accessories",
+
+    image: "images/accessories/Bluetooth Speakers.jpeg",
+
+    description:
+      "<b>BLUK’S BX-178 Bluetooth Speaker with Powerful 20W Sound</b> <br>* 2400mAh Battery<br>* Bass Blaster<br>* TWS Connection<br>*  Bluetooth Wireless<br>* FM Radio<br>* Included Mic<br>* AUX Input & USB/TF Card Support (Box Pack) "
+  }
+  ,
+
+  {
+    id: 31,
+
+    title: "UNIVERSE POINT ORIGINAL WATCH",
+
+    price: 2000,
+
+    category: "Watches",
+
+    image: "images/smart-devices/NEW ARRIVAL 4.jpeg",
+
+    description:
+      "(Mens Collection)<br>* Quartz Machine <br>* Slim case <br>* Leather strap  <br>* Stainless steel back <br>* Different Colours"
+  }
+  ,
+
+  {
+    id: 32,
+
+    title: "CURREN Men’s Premium Strap Watch",
+
+    price: 1000,
+
+    category: "Watches",
+
+    image: "images/smart-devices/CURREN Men.jpeg",
+
+    description:
+      "* tylish Black Dial <br>* Chronometer Design <br>* Comfortable Strap<br>*  Elegant Finish & Classic Casual Look (Box Not Included in this Price)"
+  }
+  ,
+
+
+   {
+    id: 33,
+
+    title: "Original 4me",
+
+    price: 1050,
+
+    category: "Perfumes",
+
+    image: "images/Perfumes/4me.jpeg",
+
+    description:
+      "<b>200ml pack of 4pcs 2000/= each</b>"
+  }
+  ,
+
+
+   {
+    id: 34,
+
+    title: "long lasting perfume ",
+
+    price: 1200,
+
+    category: "Perfumes",
+
+    image: "images/Perfumes/long lasting perfume 2.jpeg",
+
+    description:
+      "<b>Best long lasting perfume Amazing fragrances 25k up price perfume brand similar fragrances avble in 25ml </b>"
+  }
+
+  ,
+
+   {
+    id: 35,
+
+    title: "Abaya Collection",
+
+    price: 5000,
+
+    category: "Clothings",
+
+    images: [
+    "images/Clothing/MODERN ABAYA Item 1.jpeg",
+    "images/Clothing/MODERN ABAYA Item 2.jpeg",
+],
+  
+    description:
+      "<b>Premium Cut Dana Hand Work Abaya</b><br><br><b>Presented By:</b> Modern Abaya<br><b>Fabric:</b> Imported Zoom Nida<br><b>Work:</b> Cut Dana Hand Work<br><b>Style:</b> Front Open<br><b>Length:</b> 54 / 55 / 56<br><b>Chest:</b> 25<br>"
+  }
+
+
+
+  ,
+
+   {
+    id: 36,
+
+    title: "long lasting perfume ",
+
+    price: 1200,
+
+    category: "Perfumes",
+
+    image: "images/Perfumes/long lasting perfume 4.jpeg",
+
+    description:
+      "<b>Best long lasting perfume Amazing fragrances 25k up price perfume brand similar fragrances avble in 25ml</b>"
+  }
+  ,
+
+   {
+    id: 37,
+
+    title: "Marj by Ahmed Al magribi Dubai  famous",
+
+    price: 1200,
+
+    category: "Perfumes",
+
+    image: "images/Perfumes/Marj by Ahmed Al magribi Dubai  famous.jpeg",
+
+    description:
+      "<b>Marj by Ahmed Al magribi Dubai  famous & most demanding branded same fragrance 25ml long lasting for men</b>"
+  }
+  ,
+
+   {
+    id: 38,
+
+    title: "Gucci Flora",
+
+    price: 1700,
+
+    category: "Perfumes",
+
+    image: "images/Perfumes/Gucci Flora.jpeg",
+
+    description:
+      "<b>Original Gucci Flora Long lasting Perfume 50ml 24 hrs long lasting for men women</b>"
+  }
+  ,
+
+   {
+    id: 39,
+
+    title: "Dirham",
+
+    price: 1500,
+
+    category: "Perfumes",
+
+    image: "images/Perfumes/Dirham.jpeg",
+
+    description:
+      "<b>Deal of Black for men  favourite</b> <br>* Pack of 4pcs Perfume Deal <br>* 3ml Non alcoholic attar <br>* 20ml Pocket perfume <br>* 100ml perfume <br>* 200ml Body Spray"
+  }
+  ,
+  {
+    id: 40,
+
+    title: "Ladies Watch",
+
+    price: 2200,
+
+    category: "Watches",
+
+    image: "images/smart-devices/A58 PLUS LADIES.jpeg",
+
+    description:
+      "<b>Ladies Gift Set Collection</b><br>* Beautiful LED Display Stones Watch <br>* Golden And Silver Plated Micro Zircon Work Heart Deisgn Combo Set With Adjustable Bracelets<br>*  Same Jewellery Orgainizer Gift Box (Random Colours)"
+  }
+  ,
+  {
+    id: 41,
+
+    title: "IEKE Butterfly Women’s Watch ",
+
+    price: 1500,
+
+    category: "Watches",
+
+    image: "images/smart-devices/IEKE Butterfly Women’s Watch.jpeg",
+
+    description:
+      "<b>IEKE Butterfly Women’s Watch</b><br>* Elegant Dial<br>* Premium Chain<br>* Stylish Butterfly-Inspired Design <br>*  Durable Stainless Steel Chain <br>* Butterfly Lock <br>*  Premium Finishing & Classy Everyday Look"
+  }
+  ,
+  {
+    id: 42,
+
+    title: "W18 Ultra Smart Watch",
+
+    price: 2200,
+
+    category: "Watches",
+
+    image: "images/smart-devices/W18 Ultra Smart Watch.jpeg",
+
+    description:
+      "<b>W18 Ultra Smart Watch</b><br>* charger & With Chain Belt (Gift Box For Him&Her) 🎁 (Box Pack) (Random Colours) "
+  }
+  ,
+  {
+    id: 43,
+
+    title: "I20 ULTRA MAX SUIT * 7in1 Ultra",
+
+    price: 2550,
+
+    category: "Watches",
+
+    image: "images/smart-devices/watch.jpeg",
+
+    description:
+      "<b>I20 ULTRA MAX SUIT * 7in1 Ultra</b><br>* Wireless EarBuds Model Smart Watch with Charger(🎁 Gift Box Pack) (Random Colours) (Lootlo Offer🔥)"
+  }
+  ,
+
+
+   {
+    id: 44,
+
+    title: "FoneStop 20,000MAH",
+
+    price: 3300,
+
+    category: "Accessories",
+
+    image: "images/accessories/FoneStop.jpeg",
+
+    description:
+      "<b>FoneStop 20,000MAH</b> <br>* FoneStop 20,000MAH SuperFast Charging Powerbank With 2 USB Port/ 1 Type C Port & 1 Android Port (Box Pack) (Beast Model) 🔥"
+  }
+  ,
+
+
+   {
+    id: 45,
+
+    title: " FoneStop 20,000MAH SuperFast",
+
+    price: 3500,
+
+    category: "Accessories",
+
+    image: "images/accessories/FoneStop Powerbank.jpeg",
+
+    description:
+      "<b>FoneStop 20,000MAH</b> <br>* FoneStop 20,000MAH SuperFast Charging In PD/Usb Both, Powerbank With 2 Built in Cables 1 Usb Port & 1 Type C Port (Box Pack) (Beast Model) <br>* One Week Checking Warranty"
+  }
+  ,
+
+
+   {
+    id: 46,
+
+    title: "20W USB-C Power Adapter",
+
+    price: 1500,
+
+    category: "Accessories",
+
+    image: "images/accessories/20W USB-C Power Adapte.jpeg",
+
+    description:
+      "<b>20W USB-C Power Adapter</b> <br>* Lightning to USB-C Cable with 20W Fast Charging<br>* USB-C Output Port, Lightning to USB-C Cable,, Safe & Reliable Charging <br>* Compact & Travel-Friendly Design (Box Pack)"
+  }
+  ,
+
+
+   {
+    id: 47,
+
+    title: "C6 Ultra 2 Smart Watch with Headphones",
+
+    price: 2500,
+
+    category: "Accessories",
+
+    image: "images/accessories/C6 Ultra 2 Smart Watch with Headphones.jpeg",
+
+    description:
+      "<b>C6 Ultra 2 Smart Watch ⌚️ with Headphones</b> <br>* Box Pack with Charger 🔌 (Randoms Colours) "
+  }
+  ,
+  {
+    id: 48,
+
+    title: "Rolex Arabic watch",
+
+    price: 6000,
+
+    category: "Watches",
+
+    image: "images/smart-devices/Rolex Arabic watch.jpeg",
+
+    description:
+      "<b>Rolex Arabic watch</b><br>* Automatic watch movement <br>* Stainless steel chain"
+  }
+  ,
+
+
+   {
+    id: 49,
+
+    title: "BLUKS BX-AIRPRO 3 White",
+
+    price: 3500,
+
+    category: "Accessories",
+
+    image: "images/accessories/BLUKS BX-AIRPRO 3.jpeg",
+
+    description:
+      "<b>BLUKS BX-AIRPRO 3 White</b> <br>* BLUKS BX-AIRPRO 3 WIRELESS EARBUDS (ANC + ENC) WITH BUZZER/LANYARD <br>*  ANC + ENC Technology <br>* Fast & Stable Connectivity <br>* Long Battery Life <br>* Smart Touch / Button Controls <br>* WHITE EDITION <br>* VVIP QUALITY <br>* (ONE YEAR WARRANTY)"
+  }
+  ,
+
+
+   {
+    id: 50,
+
+    title: "ROYAL X RBT-825",
+
+    price: 3500,
+
+    category: "Accessories",
+
+    image: "images/accessories/ROYAL X RBT-825.jpeg",
+
+    description:
+      "<b>HIGH QUALITY EARBUDS WITH ENVIRONMENTAL NOISE CANCELLATION(ENC) <br>*LOWER POWER CONSUMPTION<br>* PLAY MUSIC HIFI <br>* HIGH DEFINATION SOUND <br>* STRONG SOUND <br>* NEW DESIGN"
+  }
+  ,
+  {
+    id: 51,
+
+    title: "11 Max Smart Watch",
+
+    price: 2500,
+
+    category: "Watches",
+
+    image: "images/smart-devices/Watch 11 Max Smart.jpeg",
+
+    description:
+      "<b>11 Max Smart Watch</b><br>* Super AMOLED Display,<br>* Bluetooth Calling <br>* Multiple Sports Modes <br>* Good Battery Life <br>* IP67 Water Resistant <br>* Wireless Charging <br>* Premium Design With Free Orange Ocean Belt (Box Pack)"
+  }
+  ,
+  {
+    id: 52,
+
+    title: "Patek Philippe Semi-Automatic Watch",
+
+    price: 3000,
+
+    category: "Watches",
+
+    image: "images/smart-devices/Luxury Watch.jpeg",
+
+    description:
+      "<b>Patek Philippe Semi-Automatic Watch</b><br>*  Premium Stainless Steel Bracelet<br>* Semi-Automatic Movement <br>* Date Display<br>*Water Resistant Design<br>* Stylish Luxury Finish & Premium Build Quality"
+  }
+  ,
+
+
+   {
+    id: 53,
+
+    title: "BLUKS BX 607",
+
+    price: 4300,
+
+    category: "Accessories",
+
+    image: "images/accessories/BLUKS BX 607.jpeg",
+
+    description:
+      "<b>BLUKS BX 607 BEATSCAPE EARBUDS<br>*Environmental Noise Cancellation (ENC)<br>*Luxury Leather-Texture Design <br>* Powerful Bass & Immersive Modes <br>* Bass Mode, Theater Mode, and Music Mode IPX4 Waterproof"
+  }
+  ,
+
+
+   {
+    id: 54,
+
+    title: "Soft Clippers",
+
+    price: 1500,
+
+    category: "Clippers",
+
+    images: [
+    "images/Clippers/soft clippers 1.jpeg",
+    "images/Clippers/soft clippers 2.jpeg",
+    "images/Clippers/soft clippers 3.jpeg",
+    "images/Clippers/soft clippers 4.jpeg",
+    "images/Clippers/soft clippers 5.jpeg",
+],
+  
+    description:
+      "<b>Soft clippers<br>*Safed chaman(white)Elegant design comfortable and beautiful soft clippers<br>* There are many more design and size From 7 to 11"
+  }
+
+
+  
+
+  ,
+  {
+    id: 55,
+
+    title: "ABAYA COLLECTION",
+
+    price: 3500,
+
+    category: "Clothings",
+
+    image: "images/Clothing/ABAYA 1.jpeg",
+
+    description:
+      "<b>Premium Abaya Collection</b><br><br><b>Work:</b> Embroidery Work on Sleeves<br><b>Style:</b> Maxi Style<br><b>Flair:</b> Big Flare<br><b>Length:</b> 54 / 55 / 56<br><b>Chest:</b> 25<br><b>Note:</b> Staller Not Included<br>"
+  }
+
+  ,
+
+
+   {
+    id: 56,
+    title: "MODERN ABAYA",
+
+    price: 3500,
+
+    category: "Clothings",
+
+    images: [
+    "images/Clothing/MODERN ABAYA 1.jpeg",
+    "images/Clothing/MODERN ABAYA 2.jpeg",
+    "images/Clothing/MODERN ABAYA 3.jpeg",
+],
+  
+    description:
+      "<b>Modern Abaya - Latest Collection</b><br><b>Design:</b> Self Printed Abaya<br><b>Style:</b> Front Open<br><b>Length:</b> 54 / 55 / 56<br><b>Chest:</b> 25<br><b>Note:</b> Staller Not Included"
+  }
+  ,
+
+
+   {
+    id: 57,
+
+    title: "LATEST ABAYA COLLECTION",
+
+    price: 3300,
+
+    category: "Clothings",
+
+    images: [
+    "images/Clothing/LATEST ABAYA COLLECTION 1.jpeg",
+    "images/Clothing/LATEST ABAYA COLLECTION 2.jpeg",
+    "images/Clothing/LATEST ABAYA COLLECTION 3.jpeg",
+],
+  
+    description:
+      "<b>Premium Imported Abaya</b><br><br><b>Design:</b> Self Printed Abaya<br><b>Style:</b> Zipper Style<br><b>Length:</b> 54 / 55 / 56<br><b>Chest:</b> 25<br><b>Note:</b> Staller Not Included"
+  }
+  ,
+
+
+  {
+    id: 58,
+
+    title: "Rolex GMT",
+
+    price: 2400,
+
+    category: "Watches",
+
+    image: "images/smart-devices/Rolex GMT.jpeg",
+
+    description:
+      "Stainless Steel chain <br> Date Working <br> Moving bazzle <br> High Quality <br> With MODERN WATCHES NAME BOX 📦"
+  }
+  ,
+
+
+  {
+    id: 59,
+
+    title: "Ladies Watch",
+
+    price: 1500,
+
+    category: "Watches",
+
+    image: "images/smart-devices/Ladies Watch.jpeg",
+
+    description:
+      "<b>Ladies Watch</b> <br>* Ladies Watch with Premium <br>* Luxury Chain <br>* Elegant Dial <br>* Stylish Design <br>* Decorative Bezel & Classy Luxury Look"
+  }
+
+  ,
+
+   {
+    id: 60,
+
+    title: "Powerbank",
+
+    price: 4500,
+
+    category: "Accessories",
+
+    image: "images/accessories/powerbanks.jpeg",
+
+    description:
+      "<b>PowerBank</b> <br>* BLUK’S BX-312 20000mAh Powerbank with 22.5W Fast Charging <br>* PD Power Delivery <br>* LED Battery Display <br>* Multi Protection & Travel-Friendly Design (Box Pack) <br> <b>WITH ONE YEAR OFFICIAL COMPANY WARRANTY</b>"
+  }
+
+  ,
+
+
+   {
+    id: 61,
+
+    title: "Motia Flowers",
+
+    price: 1200,
+
+    category: "Perfumes",
+
+    image: "images/Perfumes/Motia  Flowers.jpeg",
+
+    description:
+      "<b>Motia  Flowers</b><br>* 25ml perfume Long lasting<br> <b>Most Demanding Long lasting fragrances Pure natural Motia and Fresh Motia Flowers fragrances</b>"
+  }
+
+  ,
+
+  {
+    id: 62,
+
+    title: "ABAYA COLLECTION",
+
+    price: 3000,
+
+    category: "Clothings",
+
+    image: "images/Clothing/item abaya.jpeg",
+
+    description:
+       "<b>Premium Imported Nida Abaya</b><br><br><b>Fabric:</b> Imported Nida<br><b>Design:</b> Plain Abaya with Tussle on Front & Sleeves<br><b>Flair:</b> Big Flair<br><b>Style:</b> Front Open<br><b>Sleeves:</b> Umbrella Sleeves<br><b>Length:</b> 54 / 55 / 56<br><b>Chest:</b> 25<br><b>Note:</b> Staller Not Included"
+  }
+
+  ,
+  
+   {
+    id: 63,
+
+    title: "Abaya Set",
+
+    price: 6800,
+
+    category: "Clothings",
+
+    images: [
+    "images/Clothing/ABAYA SET 1.jpeg",
+    "images/Clothing/ABAYA SET 2.jpeg",
+    "images/Clothing/ABAYA SET 3.jpeg",
+    "images/Clothing/ABAYA SET 4.jpeg",
+],
+  
+    description:
+      "<b>Premium 4 Piece Abaya Set</b><br><br><b>Presented By:</b> Modern Abaya<br><b>Fabric:</b> Imported Korean Georgette<br><b>Set Includes:</b> Abaya, Matching Staller, Matching Bag & Skirt<br><b>Skirt:</b> 2 Side Pockets<br><b>Style:</b> Maxi Style & Baggy Style<br><b>Look:</b> Beautiful Fall & Flowy Look<br><b>Length:</b> 54 / 55 / 56<br><b>Chest:</b> 25"
+  }
+  
+  ,
+
+   {
+    id: 64,
+
+    title: "long lasting perfume ",
+
+    price: 1200,
+
+    category: "Perfumes",
+
+    image: "images/Perfumes/long lasting perfume 3.jpeg",
+
+    description:
+      "<b>Best long lasting perfume Amazing fragrances 25k up price perfume brand similar fragrances avble in 25ml</b>"
+  }
+
+
+  ,
+  {
+    id: 65,
+
+    title: "Hand Work Abaya",
+
+    price: 3500,
+
+    category: "Clothings",
+
+    image: "images/Clothing/abaya.jpeg",
+
+    description:
+       "<b>Premium Cut Dana Hand Work Abaya</b><br><br><b>Presented By:</b> Modern Abaya<br><b>Fabric:</b> Imported Crush Nida<br><b>Work:</b> Cut Dana Hand Work on Sleeves<br><b>Style:</b> Front Open<br><b>Length:</b> 54 / 55 / 56<br><b>Chest:</b> 25<br><b>Note:</b> Staller Not Included"
+  }
+
+
+  ,
+  {
+    id: 66,
+
+    title: "Hand Work Abaya",
+
+    price: 3500,
+
+    category: "Clothings",
+
+    image: "images/Clothing/Abaya single.jpeg",
+
+    description:
+       "<b>Premium Dubai Style Abaya</b><br><br><b>Fabric:</b> Imported Shining Nida<br><b>Style:</b> Dubai Style Abaya<br><b>Opening:</b> Front Open<br><b>Length:</b> 54 / 55 / 56<br><b>Chest:</b> 25<br><b>Note:</b> Staller Not Included"
+  }
+
+  ,
+
+     {
+    id: 67,
+
+    title: " LADIES FANCY WATCH",
+
+    price: 1500,
+
+    category: "Watches",
+
+    images: [
+    "images/smart-devices/LADIES FANCY 1.jpeg",
+    "images/smart-devices/LADIES FANCY 2.jpeg",
+    "images/smart-devices/LADIES FANCY 3.jpeg",
+    "images/smart-devices/LADIES FANCY 4.jpeg",
+    "images/smart-devices/LADIES FANCY 5.jpeg",
+    "images/smart-devices/LADIES FANCY 6.jpeg",
+    "images/smart-devices/LADIES FANCY 7.jpeg",
+    "images/smart-devices/LADIES FANCY 8.jpeg",
+],
+  
+    description:
+      "<b>PREMIER LADIES WATCH</b><br>* Beautiful Butterfly Lock Design <br>* Fancy & Beautiful Model <br>*  Excellent Quality & Premium Finishing <r>* Smart Choice At Reasonable Price"
+  }
+  ,
+
+     {
+    id: 68,
+
+    title: " LADIES FANCY WATCH",
+
+    price: 1500,
+
+    category: "Watches",
+
+    images: [
+    "images/smart-devices/PREMIER LADIES 1.jpeg",
+    "images/smart-devices/PREMIER LADIES 2.jpeg",
+    "images/smart-devices/PREMIER LADIES 3.jpeg",
+    "images/smart-devices/PREMIER LADIES 4.jpeg",
+    "images/smart-devices/PREMIER LADIES 5.jpeg",
+    "images/smart-devices/PREMIER LADIES 6.jpeg",
+    "images/smart-devices/PREMIER LADIES 7.jpeg",
+    "images/smart-devices/PREMIER LADIES 8.jpeg",
+],
+  
+    description:
+      "<b>PREMIER LADIES WATCH</b><br>* Beautiful Butterfly Lock Design <br>* Fancy & Beautiful Model <br>*  Excellent Quality & Premium Finishing <r>* Smart Choice At Reasonable Price"
+  }
+
+
+  
+  ,
+
+     {
+    id: 69,
+
+    title: " LADIES FANCY WATCH",
+
+    price: 1500,
+
+    category: "Watches",
+
+    images: [
+    "images/smart-devices/FANCY COLLECTION 1.jpeg",
+    "images/smart-devices/FANCY COLLECTION 2.jpeg",
+    "images/smart-devices/FANCY COLLECTION 3.jpeg",
+    "images/smart-devices/FANCY COLLECTION 4.jpeg",
+    "images/smart-devices/FANCY COLLECTION 5.jpeg",
+    "images/smart-devices/FANCY COLLECTION 6.jpeg",
+    "images/smart-devices/FANCY COLLECTION 7.jpeg",
+    "images/smart-devices/FANCY COLLECTION 8.jpeg",
+],
+  
+    description:
+      "<b>PREMIER LADIES WATCH</b><br>* Beautiful Butterfly Lock Design <br>* Fancy & Beautiful Model <br>*  Excellent Quality & Premium Finishing <r>* Smart Choice At Reasonable Price"
+  }
+
+  ,
+
+     {
+    id: 70,
+
+    title: " LADIES FANCY WATCH",
+
+    price: 1500,
+
+    category: "Watches",
+
+    images: [
+    "images/smart-devices/NEW MODEL 1.jpeg",
+    "images/smart-devices/NEW MODEL 2.jpeg",
+    "images/smart-devices/NEW MODEL 3.jpeg",
+    "images/smart-devices/NEW MODEL 4.jpeg",
+    "images/smart-devices/NEW MODEL 5.jpeg",
+    "images/smart-devices/NEW MODEL 6.jpeg",
+    "images/smart-devices/NEW MODEL 7.jpeg",
+    "images/smart-devices/NEW MODEL 8.jpeg",
+],
+  
+    description:
+      "<b>PREMIER LADIES WATCH</b><br>* Beautiful Butterfly Lock Design <br>* Fancy & Beautiful Model <br>*  Excellent Quality & Premium Finishing <r>* Smart Choice At Reasonable Price"
+  }
+
+  ,
+
+     {
+    id: 71,
+
+    title: " LADIES FANCY WATCH",
+
+    price: 1500,
+
+    category: "Watches",
+
+    images: [
+    "images/smart-devices/watch 1.jpeg",
+    "images/smart-devices/watch 2.jpeg",
+    "images/smart-devices/watch 3.jpeg",
+    "images/smart-devices/watch 4.jpeg",
+    "images/smart-devices/watch 5.jpeg",
+    "images/smart-devices/watch 6.jpeg",
+    "images/smart-devices/watch 7.jpeg",
+    "images/smart-devices/watch 8.jpeg",
+],
+  
+    description:
+      "<b>PREMIER LADIES WATCH</b><br>* Beautiful Butterfly Lock Design <br>* Fancy & Beautiful Model <br>*  Excellent Quality & Premium Finishing <r>* Smart Choice At Reasonable Price"
+  }
+
 
   
 
