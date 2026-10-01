@@ -1159,21 +1159,21 @@ const products = [
      {
     id: 67,
 
-    title: " LADIES FANCY WATCH",
+    title: " LADIES WATCH M-1",
 
     price: 1500,
 
     category: "Watches",
 
-    images: [
-    "images/smart-devices/LADIES FANCY 1.jpeg",
-    "images/smart-devices/LADIES FANCY 2.jpeg",
-    "images/smart-devices/LADIES FANCY 3.jpeg",
-    "images/smart-devices/LADIES FANCY 4.jpeg",
-    "images/smart-devices/LADIES FANCY 5.jpeg",
-    "images/smart-devices/LADIES FANCY 6.jpeg",
-    "images/smart-devices/LADIES FANCY 7.jpeg",
-    "images/smart-devices/LADIES FANCY 8.jpeg",
+     images: [
+    "images/smart-devices/watch 1.jpeg",
+    "images/smart-devices/watch 2.jpeg",
+    "images/smart-devices/watch 3.jpeg",
+    "images/smart-devices/watch 4.jpeg",
+    "images/smart-devices/watch 5.jpeg",
+    "images/smart-devices/watch 6.jpeg",
+    "images/smart-devices/watch 7.jpeg",
+    "images/smart-devices/watch 8.jpeg",
 ],
   
     description:
@@ -1184,21 +1184,21 @@ const products = [
      {
     id: 68,
 
-    title: " LADIES FANCY WATCH",
+    title: " LADIES WATCH M-2",
 
     price: 1500,
 
     category: "Watches",
 
-    images: [
-    "images/smart-devices/PREMIER LADIES 1.jpeg",
-    "images/smart-devices/PREMIER LADIES 2.jpeg",
-    "images/smart-devices/PREMIER LADIES 3.jpeg",
-    "images/smart-devices/PREMIER LADIES 4.jpeg",
-    "images/smart-devices/PREMIER LADIES 5.jpeg",
-    "images/smart-devices/PREMIER LADIES 6.jpeg",
-    "images/smart-devices/PREMIER LADIES 7.jpeg",
-    "images/smart-devices/PREMIER LADIES 8.jpeg",
+     images: [
+    "images/smart-devices/NEW MODEL 1.jpeg",
+    "images/smart-devices/NEW MODEL 2.jpeg",
+    "images/smart-devices/NEW MODEL 3.jpeg",
+    "images/smart-devices/NEW MODEL 4.jpeg",
+    "images/smart-devices/NEW MODEL 5.jpeg",
+    "images/smart-devices/NEW MODEL 6.jpeg",
+    "images/smart-devices/NEW MODEL 7.jpeg",
+    "images/smart-devices/NEW MODEL 8.jpeg",
 ],
   
     description:
@@ -1212,7 +1212,7 @@ const products = [
      {
     id: 69,
 
-    title: " LADIES FANCY WATCH",
+    title: " LADIES WATCH M-3",
 
     price: 1500,
 
@@ -1238,21 +1238,20 @@ const products = [
      {
     id: 70,
 
-    title: " LADIES FANCY WATCH",
+    title: " LADIES WATCH M-4",
 
     price: 1500,
 
     category: "Watches",
-
-    images: [
-    "images/smart-devices/NEW MODEL 1.jpeg",
-    "images/smart-devices/NEW MODEL 2.jpeg",
-    "images/smart-devices/NEW MODEL 3.jpeg",
-    "images/smart-devices/NEW MODEL 4.jpeg",
-    "images/smart-devices/NEW MODEL 5.jpeg",
-    "images/smart-devices/NEW MODEL 6.jpeg",
-    "images/smart-devices/NEW MODEL 7.jpeg",
-    "images/smart-devices/NEW MODEL 8.jpeg",
+ images: [
+    "images/smart-devices/PREMIER LADIES 1.jpeg",
+    "images/smart-devices/PREMIER LADIES 2.jpeg",
+    "images/smart-devices/PREMIER LADIES 3.jpeg",
+    "images/smart-devices/PREMIER LADIES 4.jpeg",
+    "images/smart-devices/PREMIER LADIES 5.jpeg",
+    "images/smart-devices/PREMIER LADIES 6.jpeg",
+    "images/smart-devices/PREMIER LADIES 7.jpeg",
+    "images/smart-devices/PREMIER LADIES 8.jpeg",
 ],
   
     description:
@@ -1264,26 +1263,54 @@ const products = [
      {
     id: 71,
 
-    title: " LADIES FANCY WATCH",
+    title: " LADIES WATCH M-5",
 
     price: 1500,
 
     category: "Watches",
 
     images: [
-    "images/smart-devices/watch 1.jpeg",
-    "images/smart-devices/watch 2.jpeg",
-    "images/smart-devices/watch 3.jpeg",
-    "images/smart-devices/watch 4.jpeg",
-    "images/smart-devices/watch 5.jpeg",
-    "images/smart-devices/watch 6.jpeg",
-    "images/smart-devices/watch 7.jpeg",
-    "images/smart-devices/watch 8.jpeg",
+    "images/smart-devices/LADIES FANCY 1.jpeg",
+    "images/smart-devices/LADIES FANCY 2.jpeg",
+    "images/smart-devices/LADIES FANCY 3.jpeg",
+    "images/smart-devices/LADIES FANCY 4.jpeg",
+    "images/smart-devices/LADIES FANCY 5.jpeg",
+    "images/smart-devices/LADIES FANCY 6.jpeg",
+    "images/smart-devices/LADIES FANCY 7.jpeg",
+    "images/smart-devices/LADIES FANCY 8.jpeg",
 ],
   
     description:
       "<b>PREMIER LADIES WATCH</b><br>* Beautiful Butterfly Lock Design <br>* Fancy & Beautiful Model <br>*  Excellent Quality & Premium Finishing <r>* Smart Choice At Reasonable Price"
   }
+
+  ,
+
+     {
+    id: 72,
+
+    title: " LADIES WATCH M-6",
+
+    price: 1500,
+
+    category: "Watches",
+
+    images: [
+    "images/smart-devices/Watch M-6 1.jpeg",
+    "images/smart-devices/Watch M-6 2.jpeg",
+    "images/smart-devices/Watch M-6 3.jpeg",
+    "images/smart-devices/Watch M-6 4.jpeg",
+    "images/smart-devices/Watch M-6 5.jpeg",
+    "images/smart-devices/Watch M-6 6.jpeg",
+    "images/smart-devices/Watch M-6 7.jpeg",
+    "images/smart-devices/Watch M-6 8.jpeg",
+],
+  
+    description:
+      "<b>PREMIER LADIES WATCH</b><br>* Beautiful Butterfly Lock Design <br>* Fancy & Beautiful Model <br>*  Excellent Quality & Premium Finishing <r>* Smart Choice At Reasonable Price"
+  }
+
+
 
 
   
