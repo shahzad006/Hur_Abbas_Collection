@@ -1081,3 +1081,57 @@ footer{
 
 /* Prevent horizontal overflow */
 html,body{max-width:100%;overflow-x:hidden}
+
+
+
+
+/* -------------------------------------------------------------------------- */
+
+
+
+/* Social Media Footer */
+.social-footer {
+    background: #43101C;
+    text-align: center;
+    padding: 35px 20px;
+    color: white;
+    border-top: 1px solid rgba(255,255,255,0.1);
+}
+
+.social-footer h3 {
+    color: white;
+    font-size: 22px;
+    margin-bottom: 8px;
+}
+
+.social-footer p {
+    color: #b8bfd0;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.social-links a {
+    width: 42px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    color: #0b1428;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.social-links a:hover {
+    transform: translateY(-5px);
+    background: #f0c6c6;
+}
