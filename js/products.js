@@ -754,7 +754,7 @@ const products = [
 
     title: "FoneStop 20,000MAH",
 
-    price: 3300,
+    price: 3500,
 
     category: "Accessories",
 
@@ -1529,6 +1529,91 @@ const products = [
 
     description:
       "<b>TAGHEUR WATCH FOR MEN'S </b><br>* STRAP WATCH <br>* DAY & DATE <br>* LEATHER STRAP <br>* MASTER LOCK <br>* BLACK COLOUR "
+  }
+  ,
+
+  {
+    id: 82,
+
+    title: "P9 Pro Max Headphones",
+
+    price: 1500,
+
+    category: "Accessories",
+
+    images: [
+      "images/accessories/Pro 9 Max 1.jpeg",
+      "images/accessories/Pro 9 Max 2.jpeg",
+      "images/accessories/Pro 9 Max 3.jpeg",
+      "images/accessories/Pro 9 Max 4.jpeg",
+      "images/accessories/Pro 9 Max 5.jpeg",
+      "images/accessories/Pro 9 Max 6.jpeg",
+    ],
+
+    description:
+      "<b>P9 Pro Max Headphones with Hi-Fi Stereo Sound</b><br>* Bluetooth 5.3<br>*  Built-in Microphone<br>* Hands-Free Calling<br>*Soft & Comfortable Ear Pads<br>*Foldable Design <br>* Easy Control Buttons <br>* Available in Multiple Colours (Box Pack) (Random Colours)"
+  }
+
+  ,
+
+  {
+    id: 83,
+
+    title: "BLUK’S BX-193 RGB Speaker",
+
+    price: 2500,
+
+    category: "Accessories",
+
+    images: [
+      "images/accessories/BLUK’S BX-193 RGB Speaker 2.jpeg",
+      "images/accessories/BLUK’S BX-193 RGB Speaker 1.jpeg",
+    ],
+
+    description:
+      "<b>BLUK’S BX-193 RGB Speaker</b><br>*1200mAh Battery<br>* Colorful RGB Lights<br>* TWS Connection<br>*AUX Input<br>*USB & Micro SD Card Support (Box Pack)"
+  }
+
+  ,
+
+  {
+    id: 84,
+
+    title: "A9 Pro Led Screen Airpords",
+
+    price: 1750,
+
+    category: "Accessories",
+
+    images: [
+      "images/accessories/A9 Pro Led Screen Airpords 1.jpeg",
+      "images/accessories/A9 Pro Led Screen Airpords 2.jpeg",
+      "images/accessories/A9 Pro Led Screen Airpords 3.jpeg",
+      "images/accessories/A9 Pro Led Screen Airpords 4.jpeg",
+      "images/accessories/A9 Pro Led Screen Airpords 5.jpeg",
+    ],
+
+    description:
+      "<b>A9 Pro Led Screen Airpords</b><br>*Black Colour Box Packing"
+  }
+
+
+  ,
+
+  {
+    id: 85,
+
+    
+    title: "R1S-L 3-in-1 Selfie Stick",
+
+    price: 1700,
+
+    category: "Accessories",
+
+    image: "images/accessories/a.jpeg",
+
+    description:
+      "<b>R1S-L 3-in-1 Selfie Stick</b><br>*Tripod & Stand Function <br>*  360° Rotation <br>* Extendable Up to 70cm <br>* Adjustable Phone Holder <br>* Stable Tripod Base & Optional Bluetooth Remote with Built in LED Light (Box Pack)"
   }
 
 
