@@ -248,7 +248,7 @@ const products = [
 
     title: "i11 Pro Max",
 
-    price: 1650,
+    price: 2500,
 
     category: "Watches",
 
@@ -899,13 +899,13 @@ const products = [
   {
     id: 53,
 
-    title: "BLUKS BX 607",
+    title: "BLUKS BX 607s",
 
     price: 4300,
 
     category: "Accessories",
 
-    image: "images/accessories/BLUKS BX 607.jpeg",
+    image: "images/accessories/BLUKS BX 607 4.jpeg",
 
     description:
       "<b>BLUKS BX 607 BEATSCAPE EARBUDS<br>*Environmental Noise Cancellation (ENC)<br>*Luxury Leather-Texture Design <br>* Powerful Bass & Immersive Modes <br>* Bass Mode, Theater Mode, and Music Mode IPX4 Waterproof"
@@ -1615,7 +1615,874 @@ const products = [
     description:
       "<b>R1S-L 3-in-1 Selfie Stick</b><br>*Tripod & Stand Function <br>*  360° Rotation <br>* Extendable Up to 70cm <br>* Adjustable Phone Holder <br>* Stable Tripod Base & Optional Bluetooth Remote with Built in LED Light (Box Pack)"
   }
+,
+  {
+    id: 86,
 
+    title: "WINTER ARRIVAL",
+
+    price: 3000,
+
+    category: "Clothings",
+
+    images: [
+      "images/Clothing/WINTER ARRIVAL 1.jpeg",
+      "images/Clothing/WINTER ARRIVAL 2.jpeg",
+      "images/Clothing/WINTER ARRIVAL 3.jpeg",
+      "images/Clothing/WINTER ARRIVAL 4.jpeg",
+      "images/Clothing/WINTER ARRIVAL 5.jpeg",
+      "images/Clothing/WINTER ARRIVAL 6.jpeg",
+    ],
+
+    description:
+      "<b>High Neck Style Side Chalk Open Rib Long Shirt With Trouser Snow Fall Rib 2Pcs</b><br><br><b>Quality:</b> Premium Fresh Quality<br><b>Fabric:</b> Rib<br><b>Chest:</b> 21 / 22<br><b>Long Shirt Length:</b> 51 / 52<br><b>Sleeve Length:</b> 21 / 22<br><b>Trouser Length:</b> 39 / 40"
+  }
+
+
+   ,
+
+  {
+    id: 87,
+
+    title: "ROLEX Date with Power Lock",
+
+    price: 2500,
+
+    category: "Watches",
+
+    images: [
+      "images/smart-devices/ROLEX Date with Power Lock 1.jpeg",
+      "images/smart-devices/ROLEX Date with Power Lock 2.jpeg",
+      "images/smart-devices/ROLEX Date with Power Lock 3.jpeg",
+      "images/smart-devices/ROLEX Date with Power Lock 4.jpeg",
+      "images/smart-devices/ROLEX Date with Power Lock 5.jpeg",
+      "images/smart-devices/ROLEX Date with Power Lock 6.jpeg",
+      "images/smart-devices/ROLEX Date with Power Lock 7.jpeg",
+      "images/smart-devices/ROLEX Date with Power Lock 8.jpeg",
+      "images/smart-devices/ROLEX Date with Power Lock 9.jpeg",
+      "images/smart-devices/ROLEX Date with Power Lock 10.jpeg",
+      "images/smart-devices/ROLEX Date with Power Lock 11.jpeg",
+
+    ],
+
+    description:
+      "<b>ROLEX Date with Power Lock Premium Gents Watch</b><br><br><b>Dial:</b> Elegant Premium Dial Design<br><b>Bezel:</b> Fluted Bezel<br><b>Strap:</b> Green Crocodile Pattern Leather Strap<br><b>Display:</b> Date Display<br><b>Hour Markers:</b> Stylish Diamond-Style Hour Markers<br><b>Lock:</b> Strong Power Lock<br><b>Finishing:</b> Luxury Finishing<br><b>Box:</b> With ROLEX Name Box 📦"
+  }
+,
+  {
+    id: 88,
+
+    title: "BLUKS BX 607 BEATSCAPE EARBUDS",
+
+    price: 4000,
+
+    category: "Accessories",
+
+    images: [
+      "images/accessories/BLUKS BX 607 1.jpeg",
+      "images/accessories/BLUKS BX 607 2.jpeg",
+      "images/accessories/BLUKS BX 607 3.jpeg",
+      "images/accessories/BLUKS BX 607 4.jpeg",
+      "images/accessories/BLUKS BX 607 5.jpeg",
+      "images/accessories/BLUKS BX 607 6.jpeg",
+      "images/accessories/BLUKS BX 607 7.jpeg",
+    ],
+
+    description:
+      "<b>BLUKS BX 607 BEATSCAPE EARBUDS</b><br><br><b>Noise Cancellation:</b> Environmental Noise Cancellation (ENC)<br><b>Design:</b> Luxury Leather-Texture Design<br><b>Sound:</b> Powerful Bass & Immersive Modes<br><b>Modes:</b> Bass Mode, Theater Mode & Music Mode<br><b>Waterproof:</b> IPX4 Waterproof<br><b>Warranty:</b> One Year Warranty"
+  }
+,
+  {
+    id: 89,
+
+    title: "BLUKS BX-606 NANO BUDS",
+
+    price: 3900,
+
+    category: "Accessories",
+
+    images: [
+      "images/accessories/BLUKS BX-606 NANO BUD 1.jpeg",
+      "images/accessories/BLUKS BX-606 NANO BUD 2.jpeg",
+      "images/accessories/BLUKS BX-606 NANO BUD 3.jpeg",
+      "images/accessories/BLUKS BX-606 NANO BUD 4.jpeg",
+      "images/accessories/BLUKS BX-606 NANO BUD 5.jpeg",
+    ],
+
+    description:
+      "<b>BLUKS BX-606 NANO BUDS 🎧</b><br><br><b>Noise Cancellation:</b> ENC Noise Cancellation<br><b>Sound:</b> Powerful Bass<br><b>Latency:</b> 70ms Low Latency<br><b>Waterproof:</b> IPX4 Waterproof<br><b>Battery:</b> Long Battery Life<br><b>Calling:</b> Crystal Clear Calling<br><b>Bluetooth:</b> Bluetooth 6.0<br><b>Design:</b> Compact Yet Powerful Design<br><b>Perfect For:</b> Daily Use, Travel & Commute, Gaming & Streaming, Calls & Meetings<br><b>Warranty:</b> One Year Warranty"
+  }
+,
+  {
+    id: 90,
+
+    title: "Coach Unique Frame Cross Body Bag for Girls",
+
+    price: 2000,
+
+    category: "Bags",
+
+    images: [
+      "images/Bags/Body Bag for Girls 1.jpeg",
+      "images/Bags/Body Bag for Girls 2.jpeg",
+      "images/Bags/Body Bag for Girls 3.jpeg",
+      "images/Bags/Body Bag for Girls 4.jpeg",
+      "images/Bags/Body Bag for Girls 5.jpeg",
+      "images/Bags/Body Bag for Girls 6.jpeg",
+      "images/Bags/Body Bag for Girls 7.jpeg",
+      "images/Bags/Body Bag for Girls 8.jpeg",
+      "images/Bags/Body Bag for Girls 9.jpeg",
+      "images/Bags/Body Bag for Girls 10.jpeg",
+    ],
+
+    description:
+      "<b>Coach Unique Frame Cross Body Bag for Girls 🎀</b><br><br><b>Quality:</b> Good Quality<br><b>Type:</b> Cross Body Bag<br><b>Design:</b> Unique Design<br><b>Size:</b> Medium<br><b>Colors:</b> 8"
+  }
+
+
+,
+  {
+    id: 91,
+
+    title: "College & University High Quality Bag",
+
+    price: 1800,
+
+    category: "Bags",
+
+    images: [
+      "images/Bags/High Quality Bag 1.jpeg",
+      "images/Bags/High Quality Bag 2.jpeg",
+      "images/Bags/High Quality Bag 3.jpeg",
+      "images/Bags/High Quality Bag 4.jpeg",
+      "images/Bags/High Quality Bag 5.jpeg",
+      "images/Bags/High Quality Bag 6.jpeg",
+      "images/Bags/High Quality Bag 7.jpeg",
+      "images/Bags/High Quality Bag 8.jpeg",
+      "images/Bags/High Quality Bag 9.jpeg",
+      "images/Bags/High Quality Bag 10.jpeg",
+    ],
+
+    description:
+      "<b>Imported Foldable Girls College & University High Quality Bag 💫</b><br><br><b>Material:</b> Waterproof Parachute Material<br><b>Pocket:</b> Back Pocket<br><b>Size:</b> Large + Extra Folding<br><b>Colors:</b> 6 Lovely Colours<br><b>Carrying:</b> Easy to Carry<br><b>Weight:</b> Light Weight"
+  }
+
+
+,
+  {
+    id: 92,
+
+    title: "Quality Bag",
+
+    price: 1300,
+
+    category: "Bags",
+
+    images: [
+      "images/Bags/Mother Multiple Pockets 1.jpeg",
+      "images/Bags/Mother Multiple Pockets 2.jpeg",
+      "images/Bags/Mother Multiple Pockets 3.jpeg",
+      "images/Bags/Mother Multiple Pockets 4.jpeg",
+      "images/Bags/Mother Multiple Pockets 5.jpeg",
+      "images/Bags/Mother Multiple Pockets 6.jpeg",
+      "images/Bags/Mother Multiple Pockets 7.jpeg",
+    ],
+
+    description:
+      "<b>Mother Multiple Pockets Bag 🎀</b><br><br><b>Closure:</b> 1 Centre Zipper<br><b>Size:</b> 12 × 16 Inch<br><b>Pockets:</b> Multiple Pockets<br><b>Front Pockets:</b> 2 Front Pockets<br><b>Material:</b> Parachute<br><b>Weight:</b> Light Weight"
+  }
+
+,
+  {
+    id: 93,
+
+    title: "High Quality Beauty Box",
+
+    price: 2150,
+
+    category: "Bags",
+
+    images: [
+      "images/Bags/High Quality Beauty Box 1.jpeg",
+      "images/Bags/High Quality Beauty Box 2.jpeg",
+      "images/Bags/High Quality Beauty Box 3.jpeg",
+      "images/Bags/High Quality Beauty Box 4.jpeg",
+    ],
+
+    description:
+      "<b>High Quality Beauty Box</b><br><br><b>Brands:</b> Ricardo & Instagon<br><b>Inside Pocket:</b> Net Pocket<br><b>Inside Design:</b> Separate Portion<br><b>Carry Support:</b> Trolley Carry Support on Back<br><b>Quality:</b> High Quality"
+  }
+
+,
+  {
+    id: 94,
+
+    title: "KIDS SCHOOL BAG",
+
+    price: 2500,
+
+    category: "Bags",
+
+    images: [
+      "images/Bags/KIDS SCHOOL BAG 1.jpeg",
+      "images/Bags/KIDS SCHOOL BAG 2.jpeg",
+      "images/Bags/KIDS SCHOOL BAG 3.jpeg",
+      "images/Bags/KIDS SCHOOL BAG 4.jpeg",
+      "images/Bags/KIDS SCHOOL BAG 5.jpeg",
+
+    ],
+
+    description:
+      "<b>Kids School Bag 🛍️</b><br><br><b>Material:</b> High Quality Parachute Material<br><b>Waterproof:</b> Waterproof<br><b>Size:</b> 18 × 14<br><b>Pockets:</b> 5 Zip Pockets<br><b>Colors:</b> 5 Elegant Colours<br><b>Suitable For:</b> Class 5 Till 10"
+  }
+
+
+,
+  {
+    id: 95,
+
+    title: "HAND BAG WITH KEYCHAIN FOR GIRLS",
+
+    price: 1750,
+
+    category: "Bags",
+
+    images: [
+      "images/Bags/Stylish & Fashionable 2.jpeg",
+      "images/Bags/Stylish & Fashionable 1.jpeg",
+      "images/Bags/Stylish & Fashionable 3.jpeg",
+      "images/Bags/Stylish & Fashionable 4.jpeg",
+      "images/Bags/Stylish & Fashionable 5.jpeg",
+      "images/Bags/Stylish & Fashionable 6.jpeg",
+      "images/Bags/Stylish & Fashionable 7.jpeg",
+      "images/Bags/Stylish & Fashionable 8.jpeg",
+      "images/Bags/Stylish & Fashionable 9.jpeg",
+      "images/Bags/Stylish & Fashionable 10.jpeg",
+
+    ],
+
+    description:
+      "<b>NEW CHRISTIAN DUOR HAND BAG WITH KEYCHAIN FOR GIRLS 🌸</b><br><br><b>Style:</b> Stylish & Fashionable<br><b>Carry:</b> Easy to Carry<br><b>Capacity:</b> Good Capacity<br><b>Design:</b> Elegant Design<br><b>Type:</b> Shoulder Carry<br><b>Colors:</b> 7<br><b>Demand:</b> Most Demanding 💞"
+  }
+,
+  {
+    id: 96,
+
+    title: "ZARA Bow Heels",
+
+    price: 2500,
+
+    category: "Clippers",
+
+    images: [
+      "images/Clippers/ZARA Bow Heels 1.jpeg",
+      "images/Clippers/ZARA Bow Heels 2.jpeg",
+      "images/Clippers/ZARA Bow Heels 3.jpeg",
+      "images/Clippers/ZARA Bow Heels 4.jpeg",
+      "images/Clippers/ZARA Bow Heels 5.jpeg",
+
+    ],
+
+    description:
+      "<b>ZARA Bow Heels 👠</b><br><br><b>Sizes:</b> 36, 37, 38, 39, 40, 41<br><b>Box:</b> With Brand Box 📦<br><b>Collection:</b> New Arrival"
+  }
+
+
+
+
+  ,
+  {
+    id: 97,
+
+    title: "Imported Wallet Style Cross Body Bag  for Girls",
+
+    price: 2450,
+
+    category: "Bags",
+
+    images: [
+      "images/Bags/Bag  for Girls 1.jpeg",
+      "images/Bags/Bag  for Girls 2.jpeg",
+      "images/Bags/Bag  for Girls 3.jpeg",
+      "images/Bags/Bag  for Girls 4.jpeg",
+      "images/Bags/Bag  for Girls 5.jpeg",
+      "images/Bags/Bag  for Girls 6.jpeg",
+      "images/Bags/Bag  for Girls 7.jpeg",
+      "images/Bags/Bag  for Girls 8.jpeg",
+      "images/Bags/Bag  for Girls 9.jpeg",
+      "images/Bags/Bag  for Girls 10.jpeg",
+
+    ],
+
+    description:
+      "<b>Imported Wallet Style Cross Body Bag for Girls 🎀</b><br><br><b>Design:</b> Unique Design<br><b>Type:</b> 2 Zipper Cross Body Bag<br><b>Quality:</b> Premium Quality<br><b>Handle:</b> Unique Handle<br><b>Size:</b> Medium<br><b>Collection:</b> Imported Collection"
+  }
+
+  ,
+  {
+    id: 98,
+
+    title: "Imported  Cross Body Bag for Girls",
+
+    price: 2750,
+
+    category: "Bags",
+
+    images: [
+      "images/Bags/Imported  Cross Body Bag for Girls 1.jpeg",
+      "images/Bags/Imported  Cross Body Bag for Girls 2.jpeg",
+      "images/Bags/Imported  Cross Body Bag for Girls 3.jpeg",
+      "images/Bags/Imported  Cross Body Bag for Girls 4.jpeg",
+      "images/Bags/Imported  Cross Body Bag for Girls 5.jpeg",
+      "images/Bags/Imported  Cross Body Bag for Girls 6.jpeg",
+      "images/Bags/Imported  Cross Body Bag for Girls 7.jpeg",
+      "images/Bags/Imported  Cross Body Bag for Girls 8.jpeg",
+      "images/Bags/Imported  Cross Body Bag for Girls 9.jpeg",
+      "images/Bags/Imported  Cross Body Bag for Girls 10.jpeg",
+
+    ],
+
+    description:
+      "<b>Imported Wallet Style Cross Body Bag for Girls 🎀</b><br><br><b>Design:</b> Unique Design<br><b>Type:</b> 2 Zipper Cross Body Bag<br><b>Quality:</b> Premium Quality<br><b>Handle:</b> Unique Handle<br><b>Size:</b> Medium<br><b>Collection:</b> Imported Collection"
+  }
+
+  ,
+  {
+    id: 99,
+
+    title: "Roncato Premium PP Vanity Case",
+
+    price: 2500,
+
+    category: "Bags",
+
+    images: [
+      "images/Bags/Travel Bag 1.jpeg",
+      "images/Bags/Travel Bag 2.jpeg",
+      "images/Bags/Travel Bag 3.jpeg",
+      "images/Bags/Travel Bag 4.jpeg",
+      "images/Bags/Travel Bag 5.jpeg",
+      "images/Bags/Travel Bag 6.jpeg",
+      "images/Bags/Travel Bag 7.jpeg",
+      "images/Bags/Travel Bag 8.jpeg",
+      "images/Bags/Travel Bag 9.jpeg",
+
+    ],
+
+    description:
+      "<b>Roncato Premium PP Vanity Case ✨</b><br><br><b>Material:</b> Premium PP Material<br><b>Shell:</b> 100% Unbreakable Hard Shell<br><b>Interior:</b> Spacious Interior with Organized Compartments<br><b>Closure:</b> Dual Zipper Closure<br><b>Weight:</b> Lightweight & Easy to Carry<br><b>Suitable For:</b> Makeup, Toiletries & Travel Essentials<br><b>Colors:</b> Multiple Elegant Colors<br><b>Size:</b> Large"
+  }
+
+  ,
+  {
+    id: 100,
+
+    title: "New Ysl Cross Body Bag for Girls",
+
+    price: 1850,
+
+    category: "Bags",
+
+    images: [
+      "images/Bags/Cross Body Bag for Girls 1.jpeg",
+      "images/Bags/Cross Body Bag for Girls 2.jpeg",
+      "images/Bags/Cross Body Bag for Girls 3.jpeg",
+      "images/Bags/Cross Body Bag for Girls 4.jpeg",
+      "images/Bags/Cross Body Bag for Girls 5.jpeg",
+      "images/Bags/Cross Body Bag for Girls 6.jpeg",
+
+    ],
+
+    description:
+      "<b>New YSL Cross Body Bag for Girls 🎀</b><br><br><b>Quality:</b> Good Quality<br><b>Capacity:</b> Mobile Fits Easily<br><b>Size:</b> Small<br><b>Material:</b> Shiny Leather<br><b>Colors:</b> 4<br><b>Collection:</b> New Arrival"
+  }
+
+
+  ,
+  {
+    id: 101,
+
+    title: "Girls Crossbody Bag",
+
+    price: 1450,
+
+    category: "Bags",
+
+    images: [
+      "images/Bags/girls crossbody bag 1.jpeg",
+      "images/Bags/girls crossbody bag 2.jpeg",
+      "images/Bags/girls crossbody bag 3.jpeg",
+      "images/Bags/girls crossbody bag 4.jpeg",
+      "images/Bags/girls crossbody bag 5.jpeg",
+      "images/Bags/girls crossbody bag 6.jpeg",
+      "images/Bags/girls crossbody bag 7.jpeg",
+      "images/Bags/girls crossbody bag 8.jpeg",
+      "images/Bags/girls crossbody bag 9.jpeg",
+      "images/Bags/girls crossbody bag 10.jpeg",
+      "images/Bags/girls crossbody bag 11.jpeg",
+      "images/Bags/girls crossbody bag 12.jpeg",
+      "images/Bags/girls crossbody bag 13.jpeg",
+      "images/Bags/girls crossbody bag 14.jpeg",
+
+    ],
+
+    description:
+      "<b>New Arrival Girls Crossbody Bag 🎀</b><br><br><b>Quality:</b> A++ Quality<br><b>Price:</b> Good Price<br><b>Pockets:</b> 2 Front Pockets + 1 Back Pocket<br><b>Strap:</b> Long Strap"
+  }
+
+
+  ,
+  {
+    id: 102,
+
+    title: "Bovis Star Button High Quality Top Zipper Wallet",
+
+    price: 1250,
+
+    category: "Bags",
+
+    images: [
+      "images/Bags/Zipper Walle 1.jpeg",
+      "images/Bags/Zipper Walle 2.jpeg",
+      "images/Bags/Zipper Walle 3.jpeg",
+      "images/Bags/Zipper Walle 4.jpeg",
+      "images/Bags/Zipper Walle 5.jpeg",
+      "images/Bags/Zipper Walle 6.jpeg",
+      "images/Bags/Zipper Walle 7.jpeg",
+      "images/Bags/Zipper Walle 8.jpeg",
+      "images/Bags/Zipper Walle 9.jpeg",
+      "images/Bags/Zipper Walle 10.jpeg",
+      "images/Bags/Zipper Walle 11.jpeg",
+  
+
+
+    ],
+
+    description:
+      "<b>Bovis Star Button High Quality Top Zipper Wallet with Cardholder</b><br><br><b>Quality:</b> High Quality<br><b>Features:</b> Top Zipper Wallet + Cardholder<br><b>Pockets:</b> Extra Hidden Pockets<br><b>Colors:</b> Black 🖤, Brown 🤎, Camel 🐫<br><b>Note:</b> Watch Video for Inner Settings"
+  }
+
+  ,
+  {
+    id: 103,
+
+    title: "Girls TRAVELLING College & University High Quality Bag",
+
+    price: 1750,
+
+    category: "Bags",
+
+    images: [
+      "images/Bags/TRAVELLING Bag 1.jpeg",
+      "images/Bags/TRAVELLING Bag 2.jpeg",
+      "images/Bags/TRAVELLING Bag 3.jpeg",
+      "images/Bags/TRAVELLING Bag 4.jpeg",
+      "images/Bags/TRAVELLING Bag 5.jpeg",
+      "images/Bags/TRAVELLING Bag 6.jpeg",
+      "images/Bags/TRAVELLING Bag 7.jpeg",
+      "images/Bags/TRAVELLING Bag 8.jpeg",
+      "images/Bags/TRAVELLING Bag 9.jpeg",
+      "images/Bags/TRAVELLING Bag 10.jpeg",
+      "images/Bags/TRAVELLING Bag 11.jpeg",
+      "images/Bags/TRAVELLING Bag 12.jpeg"
+
+
+    ],
+
+    description:
+      "<b>Imported PINK Girls Travelling College & University High Quality Bag 💫</b><br><br><b>Origin:</b> Made in China 🇨🇳<br><b>Type:</b> Tote Bag<br><b>Quality:</b> Imported Quality<br><b>Material:</b> Waterproof Parachute Material<br><b>Space:</b> Extra Space<br><b>Pocket:</b> Front Pocket<br><b>Size:</b> Large Folding<br><b>Colors:</b> 8 Lovely Colours<br><b>Carrying:</b> Easy to Carry<br><b>Weight:</b> Light Weight"
+  }
+
+  ,
+  {
+    id: 104,
+
+    title: "Print College Backpack For Girls",
+
+    price: 2250,
+
+    category: "Bags",
+
+    images: [
+      "images/Bags/Print College Backpack 1.jpeg",
+      "images/Bags/Print College Backpack 2.jpeg",
+      "images/Bags/Print College Backpack 3.jpeg",
+      "images/Bags/Print College Backpack 4.jpeg",
+      "images/Bags/Print College Backpack 5.jpeg",
+      "images/Bags/Print College Backpack 6.jpeg",
+      "images/Bags/Print College Backpack 7.jpeg",
+
+
+    ],
+
+    description:
+      "<b>High Quality Burberry Print College Backpack for Girls 🎀</b><br><br><b>Look:</b> Attractive Look<br><b>Colors:</b> 7 Attractive Colors<br><b>Pockets:</b> Multiple Pockets<br><b>Quality:</b> Good Quality<br><b>Zippers:</b> 3 Zippers<br><b>Collection:</b> Imported Collection"
+  }
+  ,
+  {
+    id: 105,
+
+    title: "High Quality Crocodile Leather sTote Bag for Girls",
+
+    price: 2250,
+
+    category: "Bags",
+
+    images: [
+      "images/Bags/Crocodile Leather sTote Bag 1.jpeg",
+      "images/Bags/Crocodile Leather sTote Bag 2.jpeg",
+      "images/Bags/Crocodile Leather sTote Bag 3.jpeg",
+      "images/Bags/Crocodile Leather sTote Bag 4.jpeg",
+      "images/Bags/Crocodile Leather sTote Bag 5.jpeg",
+      
+
+
+    ],
+
+    description:
+      "<b>High Quality Crocodile Leather Tote Bag</b><br><br><b>Material:</b> Crocodile Leather<br><b>Accessory:</b> Ribbon Scarf<br><b>Inside:</b> Inside Pocket<br><b>Shades:</b> 2 Shades Available"
+  }
+  ,
+  {
+    id: 106,
+
+    title: "DIOR NEW CROSS BODY BAG FOR GIRLS",
+
+    price: 1500,
+
+    category: "Bags",
+
+    images: [
+      "images/Bags/CROSS BODY BAG FOR GIRL 1.jpeg",
+      "images/Bags/CROSS BODY BAG FOR GIRL 2.jpeg",
+      "images/Bags/CROSS BODY BAG FOR GIRL 3.jpeg",
+      "images/Bags/CROSS BODY BAG FOR GIRL 4.jpeg",
+      "images/Bags/CROSS BODY BAG FOR GIRL 5.jpeg",
+      "images/Bags/CROSS BODY BAG FOR GIRL 6.jpeg",
+      "images/Bags/CROSS BODY BAG FOR GIRL 7.jpeg",
+
+
+
+    ],
+
+    description:
+      "<b>DIOR New Cross Body Bag for Girls 💝</b><br><br><b>Type:</b> Cross Body Bag<br><b>Material:</b> PU<br><b>Zippers:</b> 3 Zippers<br><b>Strap:</b> Long Strap<br><b>Carrying:</b> Easy to Carry<br><b>Colors:</b> 8<br><b>Demand:</b> Most Demanding Article"
+  }
+
+
+
+
+  ,
+  {
+    id: 107,
+
+    title: "Shoulder Handbags For Girls",
+
+    price: 2500,
+
+    category: "Bags",
+
+    images: [
+      "images/Bags/Shoulder handbags for girls 1.jpeg",
+      "images/Bags/Shoulder handbags for girls 2.jpeg",
+      "images/Bags/Shoulder handbags for girls 3.jpeg",
+      "images/Bags/Shoulder handbags for girls 4.jpeg",
+      "images/Bags/Shoulder handbags for girls 5.jpeg",
+      "images/Bags/Shoulder handbags for girls 6.jpeg",
+      "images/Bags/Shoulder handbags for girls 7.jpeg",
+      "images/Bags/Shoulder handbags for girls 8.jpeg",
+      "images/Bags/Shoulder handbags for girls 9.jpeg",
+      "images/Bags/Shoulder handbags for girls 10.jpeg",
+      "images/Bags/Shoulder handbags for girls 11.jpeg",
+
+
+
+    ],
+
+    description:
+      "<b>New Luxury Rhinestone Diamonds PU Leather Shoulder Handbag for Girls 😍</b><br><br><b>Material:</b> PU Leather<br><b>Design:</b> Rhinestone Diamonds<br><b>Style:</b> Luxury Shoulder Handbag<br><b>Quality:</b> Amazing Branded Bag<br><b>Collection:</b> Restock / New Arrival"
+  }
+
+  ,
+  {
+    id: 108,
+
+    title: "Shoulder Handbags For Girls",
+
+    price: 1550,
+
+    category: "Bags",
+
+    images: [
+      "images/Bags/Body Bag 1.jpeg",
+      "images/Bags/Body Bag 2.jpeg",
+      "images/Bags/Body Bag 3.jpeg",
+      "images/Bags/Body Bag 4.jpeg",
+      "images/Bags/Body Bag 5.jpeg",
+      "images/Bags/Body Bag 6.jpeg",
+      "images/Bags/Body Bag 7.jpeg",
+      "images/Bags/Body Bag 8.jpeg",
+      "images/Bags/Body Bag 9.jpeg",
+      "images/Bags/Body Bag 10.jpeg",
+  
+
+
+
+    ],
+
+    description:
+      "<b>New Bow Style Cross Body Bag for Girls ❤️</b><br><br><b>Quality:</b> Good Quality<br><b>Design:</b> Beautiful Front Bow Style<br><b>Material:</b> Velvet<br><b>Capacity:</b> Good Capacity<br><b>Colors:</b> 8 Colours<br><b>Style:</b> Multiple Colors<br><b>Demand:</b> Most Demanding"
+  }
+
+
+  ,
+  {
+    id: 109,
+
+    title: "Cross Body Bag for Girls",
+
+    price: 1550,
+
+    category: "Bags",
+
+    images: [
+      "images/Bags/Cross Body Bag 1.jpeg",
+      "images/Bags/Cross Body Bag 2.jpeg",
+      "images/Bags/Cross Body Bag 3.jpeg",
+      "images/Bags/Cross Body Bag 4.jpeg",
+      "images/Bags/Cross Body Bag 5.jpeg",
+      "images/Bags/Cross Body Bag 6.jpeg",
+      "images/Bags/Cross Body Bag 7.jpeg",
+      "images/Bags/Cross Body Bag 8.jpeg",
+      "images/Bags/Cross Body Bag 9.jpeg",
+      "images/Bags/Cross Body Bag 10.jpeg",
+      "images/Bags/Cross Body Bag 11.jpeg",
+
+
+
+    ],
+
+    description:
+      "<b>Cross Body Bag for Girls 🎀</b><br><br><b>Design:</b> Unique & Sleek Design<br><b>Quality:</b> Premium Quality<br><b>Strap:</b> Long Strap<br><b>Size:</b> Small<br><b>Pocket:</b> Single Pocket"
+  }
+
+  ,
+
+
+  {
+    id: 110,
+
+    title: "Cross Body Bag for Girls",
+
+    price: 800,
+
+    category: "Bags",
+
+    images: [
+      "images/Bags/Top zipper Wallet 2.jpeg",
+      "images/Bags/Top zipper Wallet 1.jpeg",
+      "images/Bags/Top zipper Wallet 3.jpeg",
+      "images/Bags/Top zipper Wallet 4.jpeg",
+      "images/Bags/Top zipper Wallet 5.jpeg",
+      "images/Bags/Top zipper Wallet 6.jpeg",
+      "images/Bags/Top zipper Wallet 7.jpeg",
+      "images/Bags/Top zipper Wallet 8.jpeg",
+      "images/Bags/Top zipper Wallet 9.jpeg",
+      "images/Bags/Top zipper Wallet 10.jpeg",
+      "images/Bags/Top zipper Wallet 11.jpeg",
+
+
+
+    ],
+
+    description:
+      "<b>Louis Vuitton Brand Small Top Zipper Wallet with Cardholder</b><br><br><b>Size:</b> Small & Decent Size<br><b>Features:</b> Top Zipper Wallet + Cardholder<br><b>Colors:</b> Black 🖤, Brown 🤎<br><b>Note:</b> Watch Video for Inner Settings"
+  }
+  ,
+
+
+  {
+    id: 111,
+
+    title: "Girls Shoulder & Cross Body Bag",
+
+    price: 3250,
+
+    category: "Bags",
+
+    images: [
+      "images/Bags/Shoulder and Cross body 1.jpeg",
+      "images/Bags/Shoulder and Cross body 2.jpeg",
+      "images/Bags/Shoulder and Cross body 3.jpeg",
+      "images/Bags/Shoulder and Cross body 4.jpeg",
+      "images/Bags/Shoulder and Cross body 5.jpeg",
+      "images/Bags/Shoulder and Cross body 6.jpeg",
+    
+
+
+
+    ],
+
+    description:
+      "<b>New Arrivals Imported Girls Shoulder & Cross Body Bag</b><br><br><b>Type:</b> Shoulder & Cross Body Bag<br><b>Quality:</b> AAA Quality<br><b>Strap:</b> Long Strap<br><b>Accessory:</b> Keychain<br><b>Collection:</b> Imported Item<br><b>Demand:</b> Hot Trending Item"
+  }
+
+
+
+  ,
+
+
+  {
+    id: 112,
+
+    title: "Michael Kors MK Flat Slipper",
+
+    price: 2500,
+
+    category: "Clippers",
+
+    images: [
+      "images/Clippers//Michael Kors MK Flat Slipper 1.jpeg",
+      "images/Clippers//Michael Kors MK Flat Slipper 2.jpeg",
+      "images/Clippers//Michael Kors MK Flat Slipper 3.jpeg",
+      "images/Clippers//Michael Kors MK Flat Slipper 4.jpeg",
+      "images/Clippers//Michael Kors MK Flat Slipper 5.jpeg",
+      "images/Clippers//Michael Kors MK Flat Slipper 6.jpeg",
+    
+
+
+
+    ],
+
+    description:
+      "<b>Michael Kors MK Flat Slipper</b><br><br><b>Model:</b> Official Model<br><b>Sizes:</b> 37 To 42<br><b>Comfort:</b> Soft & Comfortable<br><b>Style:</b> Just Like Medicated<br><b>Box:</b> With Brand Box 📦<br><b>Collection:</b> New Arrival"
+  }
+
+
+    ,
+
+
+  {
+    id: 113,
+
+    title: "High Quality Cow Leather Spacious Wallet with Cardholder",
+
+    price: 1200,
+
+    category: "Bags",
+
+    images: [
+      "images/Bags/Wallets Plus Cardholde 1.jpeg",
+      "images/Bags/Wallets Plus Cardholde 2.jpeg",
+      "images/Bags/Wallets Plus Cardholde 3.jpeg",
+      "images/Bags/Wallets Plus Cardholde 4.jpeg",
+      "images/Bags/Wallets Plus Cardholde 5.jpeg",
+      "images/Bags/Wallets Plus Cardholde 6.jpeg",
+      "images/Bags/Wallets Plus Cardholde 7.jpeg",
+    
+
+
+
+    ],
+
+    description:
+      "<b>High Quality Cow Leather Spacious Wallet with Cardholder</b><br><br><b>Material:</b> 100% Real Cow Leather<br><b>Quality:</b> Very High Quality<br><b>Capacity:</b> Very Spacious<br><b>Features:</b> Wallet + Cardholder<br><b>Colors:</b> Black 🖤, Brown 🤎"
+  }
+
+    ,
+
+
+  {
+    id: 114,
+
+    title: "Imported Wallet Style Cross Body Bag for Girls 🎀",
+
+    price: 2400,
+
+    category: "Bags",
+
+    images: [
+      "images/Bags/Imported Collection 1.jpeg",
+      "images/Bags/Imported Collection 2.jpeg",
+      "images/Bags/Imported Collection 3.jpeg",
+      "images/Bags/Imported Collection 4.jpeg",
+      "images/Bags/Imported Collection 5.jpeg",
+      "images/Bags/Imported Collection 6.jpeg",
+      "images/Bags/Imported Collection 7.jpeg",
+    
+
+
+
+    ],
+
+    description:
+      "<b>Imported Wallet Style Cross Body Bag for Girls 🎀</b><br><br><b>Design:</b> Unique Design<br><b>Quality:</b> Premium Quality<br><b>Handle:</b> Unique Handle<br><b>Size:</b> Medium<br><b>Collection:</b> Imported Collection"
+  }
+
+  ,
+
+  {
+    id: 115,
+
+    title: "Customised Armani Couple Watch",
+
+    price: 1650,
+
+    category: "Watches",
+
+    images: [
+      "images/smart-devices/Customised Armani Couple Watch 1.jpeg",
+      "images/smart-devices/Customised Armani Couple Watch 2.jpeg",
+      "images/smart-devices/Customised Armani Couple Watch 3.jpeg",
+      "images/smart-devices/Customised Armani Couple Watch 4.jpeg",
+      "images/smart-devices/Customised Armani Couple Watch 5.jpeg",
+      "images/smart-devices/Customised Armani Couple Watch 6.jpeg",
+      "images/smart-devices/Customised Armani Couple Watch 7.jpeg",
+      "images/smart-devices/Customised Armani Couple Watch 8.jpeg",
+      "images/smart-devices/Customised Armani Couple Watch 9.jpeg",
+      "images/smart-devices/Customised Armani Couple Watch 10.jpeg",
+      "images/smart-devices/Customised Armani Couple Watch 11.jpeg",
+      "images/smart-devices/Customised Armani Couple Watch 12.jpeg",
+      "images/smart-devices/Customised Armani Couple Watch 13.jpeg",
+      "images/smart-devices/Customised Armani Couple Watch 14.jpeg",
+      
+    ],
+
+    description:
+      "<b>Customised Armani Couple Watch ⌚</b><br><br><b>Box:</b> With Normal Box<br><b>Colors:</b> Black, Brown, Blue<br><b>Making Time:</b> 1 to 3 Working Days<br><b>Single Price:</b> Rs. 1100/- with Normal Box<br><b>Pair Price:</b> Rs. 1650/- with Normal Box<br><b>Customization:</b> Face Wali Picture Bhi Lag Jayegi"
+  }
+  
+  ,
+
+  {
+    id: 116,
+
+    title: "New Stylish Urdu Letter Design name customized Locket",
+
+    price: 900,
+
+    category: "Jewelry",
+
+    images: [
+      "images/Jewelry/Jewelry 1.jpeg",
+      "images/Jewelry/Jewelry 2.jpeg",
+      "images/Jewelry/Jewelry 3.jpeg",
+      "images/Jewelry/Jewelry 4.jpeg",
+      "images/Jewelry/Jewelry 5.jpeg",
+      "images/Jewelry/Jewelry 6.jpeg",
+      "images/Jewelry/Jewelry 7.jpeg",
+      "images/Jewelry/Jewelry 8.jpeg",
+      "images/Jewelry/Jewelry 9.jpeg",
+      "images/Jewelry/Jewelry 10.jpeg",
+      "images/Jewelry/Jewelry 11.jpeg",
+      "images/Jewelry/Jewelry 12.jpeg",
+      
+    ],
+
+    description:
+      "<b>H.M Customised Urdu Letter Name Locket</b><br><br><b>Design:</b> New Stylish Urdu Letter Design<br><b>Customization:</b> Name Customised Locket<br><b>Colors:</b> Golden & Silver<br><b>Making Time:</b> 3 to 4 Working Days<br><b>Note:</b> Open Pictures Are for Reference. Stone Quantity May Vary Slightly in Each Piece, Which Is Normal. Every Piece May Have Minor Differences."
+  }
+  
 
 
 
